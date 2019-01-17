@@ -111,6 +111,9 @@ bitmap-fixed-fonts
 bitmap-lucida-typewriter-fonts
 bluez
 bluez-libs
+bolt
+boost-iostreams
+boost-random
 boost-regex
 boost-system
 boost-thread
@@ -152,6 +155,7 @@ colord-libs
 compat-libcogl-pango12
 compat-libcogl12
 compat-libcolord1
+compat-libical1
 comps-extras
 control-center
 control-center-filesystem
@@ -246,6 +250,7 @@ enchant
 espeak
 ethtool
 evolution-data-server
+evolution-data-server-langpacks
 exempi
 expat
 expat-devel
@@ -266,6 +271,8 @@ firefox
 firewalld
 firewalld-filesystem
 flac-libs
+flatpak
+flatpak-libs
 flite
 fltk
 fontawesome-fonts
@@ -281,6 +288,8 @@ fprintd
 fprintd-pam
 freetype
 freetype-devel
+fribidi
+fribidi-devel
 fuse
 fuse-libs
 fxload
@@ -325,6 +334,7 @@ glibc
 glibc-common
 glibc-devel
 glibc-headers
+glibc-utils
 glx-utils
 gmp
 gnome-bluetooth
@@ -350,6 +360,7 @@ gnutls
 gnutls-dane
 gnutls-utils
 gobject-introspection
+google-noto-emoji-color-fonts
 gperftools-libs
 gpgme
 gpm
@@ -409,7 +420,11 @@ hunspell
 hunspell-en-US
 hwdata
 hyphen
+ibus
+ibus-gtk2
+ibus-gtk3
 ibus-libs
+ibus-setup
 im-chooser
 im-chooser-common
 imsettings
@@ -569,6 +584,7 @@ libXxf86vm-devel
 libacl
 libaio
 libao
+libappstream-glib
 libarchive
 libart_lgpl
 libassuan
@@ -629,11 +645,16 @@ libfastjson
 libffi
 libfontenc
 libfprint
+libgcab1
 libgcc
 libgcrypt
 libgdata
 libgee
 libglade2
+libglvnd
+libglvnd-egl
+libglvnd-gles
+libglvnd-glx
 libgnome
 libgnome-keyring
 libgnomecanvas
@@ -718,6 +739,7 @@ libsemanage-python
 libsepol
 libsepol-devel
 libshout
+libsmartcols
 libsmbclient
 libsndfile
 libsoup
@@ -754,11 +776,13 @@ libusbx
 libuser
 libutempter
 libuuid
+libuuid-devel
 libv4l
 libva
 libverto
 libverto-devel
 libverto-tevent
+libvirt-bash-completion
 libvirt-client
 libvirt-libs
 libvisual
@@ -768,6 +792,7 @@ libwacom
 libwacom-data
 libwayland-client
 libwayland-cursor
+libwayland-egl
 libwayland-server
 libwbclient
 libwebp
@@ -839,6 +864,7 @@ mokutil
 mozilla-filesystem
 mozjs17
 mozjs24
+mozjs52
 mpfr
 msv-msv
 msv-xsdlib
@@ -1071,6 +1097,7 @@ php-common
 php-gd
 php-xml
 pinentry
+pinentry-gtk
 pinfo
 pixman
 pkgconfig
@@ -1188,12 +1215,14 @@ python-urllib3
 python-yubico
 python2-caribou
 python2-cryptography
+python2-futures
 python2-ipaclient
 python2-ipalib
 python2-ipaserver
 python2-oauthlib
 python2-pyasn1
 python2-pyasn1-modules
+python2-pyatspi
 pyusb
 pyxattr
 qdox
@@ -1426,6 +1455,8 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils

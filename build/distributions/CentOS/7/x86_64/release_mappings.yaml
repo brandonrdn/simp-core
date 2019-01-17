@@ -6,10 +6,10 @@ simp_releases:
     flavors:
       CentOS:
         isos:
-          - name:     'CentOS-7-x86_64-DVD-1804.iso'
-            size:     4470079488
-            checksum: '506e4e06abf778c3435b4e5745df13e79ebfc86565d7ea1e128067ef6b5a6345'
-        build_command: 'bundle exec rake build:auto[CentOS-7-x86_64-DVD-1804.iso,6.X]'
+          - name:     'CentOS-7-x86_64-DVD-1810.iso'
+            size:     4588568576
+            checksum: '6d44331cc4f6c506c7bbe9feb8468fad6c51a88ca1393ca6b8b486ea04bec3c1'
+        build_command: 'bundle exec rake build:auto[CentOS-7-x86_64-DVD-1810.iso,6.X]'
         os_version:   '7.0'
       RedHat:
         isos:
